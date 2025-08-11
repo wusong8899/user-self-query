@@ -1,0 +1,26 @@
+{
+    "name": "wusong8899/user-self-query",
+    "description": "A Flarum extension.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Ex\\userSelfQuery\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "User Self Query",
+            "icon": {
+                "name": "fas fa-stream",
+                "backgroundColor": "#68238c",
+                "color": "#fff"
+            }
+        }
+    }
+}
